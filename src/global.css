@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2 {
+  margin: 0 0 5px 0;
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.hovered-header {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.308);
+}
